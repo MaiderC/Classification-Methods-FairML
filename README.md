@@ -3,4 +3,5 @@
 ## Resources
 
 - [fairlearn](https://fairlearn.org/)
-- [COMPAS](https://www.kaggle.com/datasets/danofer/compass)
+- [COMPAS (kaggle)](https://www.kaggle.com/datasets/danofer/compass)
+- [COMPAS (github)](https://github.com/propublica/compas-analysis)
