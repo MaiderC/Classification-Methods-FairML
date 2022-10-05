@@ -31,7 +31,7 @@ Many data sources used for training ML models are user-generated.
 
 ## How to measure fairness
 
-**Equalized Odds**
+### Equalized Odds
 
 $$
 P(\hat{Y}=1|A=0,Y=y) = P(\hat{Y}=1|A=1,Y=y)
@@ -39,7 +39,7 @@ $$
 
 - $A$: Protected attiribute
 
-**Equal opportunity**
+### Equal opportunity
 
 (Specific case of equalized odds)
 
@@ -47,6 +47,20 @@ $$
 P(\hat{Y}=1|A=0,Y=1) = P(\hat{Y}=1|A=1,Y=1)
 $$
 
-**Demographic parity**
+### Demographic parity
 
-**Fairness through awareness**
+$$
+P(\hat{Y}|A=0) = P(\hat{Y}|A=1)
+$$
+
+### Fairness through awareness
+
+*An algorithm is fair if it gives similar predictions to similar individuals*
+
+### Fairness through unawareness
+
+*An algorithm is fair as long as any protected attributes A are not explicitly used in the decision-making process*
+
+### Treatment Equality
+
+*Treatment equality is achieved when the ratio of false negatives and false positives is the same for both protected group categories*
