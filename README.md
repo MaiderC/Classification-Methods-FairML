@@ -7,6 +7,7 @@
 - [COMPAS (github)](https://github.com/propublica/compas-analysis)
 - [A Review on Fairness in Machine Learning](https://dl.acm.org/doi/10.1145/3494672#d1e503)
 - [Analysing Fairness in Machine Learning (with Python)](https://towardsdatascience.com/analysing-fairness-in-machine-learning-with-python-96a9ab0d0705)
+- [Several dataset to measure fairness] https://fairnessmeasures.github.io/Pages/Datasets
 
 ## Guidelines
 1) Find measures used in the literature for evaluating when a classifier is fair. Several measures have been proposed. Elaborate on their strong and weak points to evaluate fairness.
