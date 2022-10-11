@@ -37,6 +37,11 @@ $$
 P(\hat{Y}=1|A=0,Y=y) = P(\hat{Y}=1|A=1,Y=y)
 $$
 
+$$
+P[Y^=1|S=1,Y=0]−P[Y^=1|S≠1,Y=0]≤ε,
+P[Y^=1|S=1,Y=1]−P[Y^=1|S≠1,Y=1]≤ε,
+$$
+
 - $A$: Protected attiribute
 
 ### Equal opportunity
