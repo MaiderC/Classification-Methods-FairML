@@ -32,7 +32,7 @@ Many data sources used for training ML models are user-generated.
 ## How to measure fairness
 
 ### Equalized Odds
-
+The measure computes the difference between the false-positive rates (FPRs), and the difference between the true-positive rates (TPRs) of the two groups. 
 $$
 P(\hat{Y}=1|A=0,Y=y) = P(\hat{Y}=1|A=1,Y=y)
 $$
