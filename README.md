@@ -9,6 +9,7 @@
 - [Analysing Fairness in Machine Learning (with Python)](https://towardsdatascience.com/analysing-fairness-in-machine-learning-with-python-96a9ab0d0705)
 - [Several dataset to measure fairness](https://fairnessmeasures.github.io/Pages/Datasets)
 - [Python library to remve Fairness: aif360](https://aif360.readthedocs.io/en/latest/modules/generated/aif360.algorithms.inprocessing.PrejudiceRemover.html)
+- [IBM compas analysis](http://aif360.mybluemix.net/check)
 
 ## Guidelines
 1) Find measures used in the literature for evaluating when a classifier is fair. Several measures have been proposed. Elaborate on their strong and weak points to evaluate fairness.
